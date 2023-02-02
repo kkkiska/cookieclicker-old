@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  user-select: none;
+  background-color: rgb(203, 176, 176);
+}
+
+header {
+  align-items: center;
+  display: flex;
+  background-color: rgb(203, 176, 176);
+  padding: .5%;
+  height: 10vh;
+}
+
+
+.title {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  font-weight:900;
+  margin-left: 4%;
+}
+.game-panel {
+  background: url(bg.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 69.2vh;
+}
+
+.balance-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4%;
+}
+
+.money-now {
+  font-size: 40px;
+}
+.money-sec {
+  font-size: 30px;
+}
+
+.cookie {
+  margin-top: 2%;
+  width: 350px ;
+  cursor: pointer;
+  border-radius: 75px;
+}
+
+.cookie img {
+  border-radius: 75px;
+}
+
+.game-items {
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+ background-color: rgb(203, 176, 176);
+ flex-wrap: wrap;
+ height: 19vh;
+}
+
+.game-button {
+  display: flex;
+  margin: 1%;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.game-button:hover  {
+  background-color: rgb(227, 193, 0);
+  color: white;
+}
+
+
+
+.game-button img {
+  margin: auto 0 auto 2%;
+  height: 80px;
+}
+
+.game-button-info {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.game-button-price {
+  color: red;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.game-button-name {
+  font-size: 20px;
+}
+
+.item-clicker {
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  background: url(click.jpg);
+  background-size: cover;
+  border: 2px black solid;
+}
+
+.item-granny {
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(53, 232, 89);
+  border: 2px black solid;
+}
+.item-factory {
+  margin: 1%;
+  border: 2px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(53, 226, 232);
+}
